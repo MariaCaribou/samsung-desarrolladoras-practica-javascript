@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tu DNI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Pacifico&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div id="caja1">
+        <h1>CALCULA TU DNI</h1>
+        <form action="#" onsubmit="return comprobarLetraDni()">
+            <span>NÚMERO</span>
+            <input type="text" name="numeroDni" id="numeroDni" maxlength="8" value=""/><br /> 
+            <span>LETRA</span>
+            <input type="text" name="letra" id="letra" maxlength="1" value="" /><br />
+            <br /><br />
+            <input type="submit" id="boton" value="Aceptar">
+            <br><br />
+        </form>
+    </div>
+
+    <div id="caja2">
+        <span>LA LETRA DEL NIF INDICADA</span>
+        <h1 id="letraDNI"></h1>
+        <h3 id="error"></h3>
+        <span>TU NÚMERO COMPLETO ES</span>
+        <h1 id="DNIcompleto"></h1>
+    </div>  
+</body>
+</html>

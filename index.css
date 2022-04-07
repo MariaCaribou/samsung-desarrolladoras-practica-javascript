@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #004C99;
+}
+ 
+#caja1, #caja2 {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 5%;
+  padding: 25px;
+  border: 3px outset #CCE5FF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Quicksand";
+  background-color: #99CCFF;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form span {
+  display: block;
+}
+
+form span:nth-child(4) {
+  margin-top: 10px;
+}
+
+#numeroDni, #letra {
+  margin-top: 10px;
+  background-color: whitesmoke;
+  border: 4px;
+  border-radius: 5px;
+  padding: 7px;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+
+#boton {
+  background-color: whitesmoke;
+  border: 4px;
+  border-radius: 5px;
+  padding: 7px;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+
+#caja2 span:nth-child(4) {
+  display: block;
+  margin-top: 20px;
+}
+
+#letraDNI {
+  color: green;
+  text-transform: uppercase;
+}
+
+#error {
+  color: red;
+  text-transform: uppercase;
+}
+
+#DNIcompleto {
+  color: #F4FF4D;
+  text-transform: uppercase;
+}
